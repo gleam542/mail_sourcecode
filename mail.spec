@@ -19,7 +19,7 @@ if not Path('dist').exists():
 
 
 a = Analysis(
-    ['mail.py'],
+    ['main.py'],
     pathex=[Path(SPECPATH).absolute()],
     binaries=[],
     datas=[('.env', '.')],
